@@ -38,17 +38,12 @@ namespace Task05
                 int stepen = 2; // вводим степень чтобы возвести число в квадрат
                                 //2.3 Вывод
                 Console.WriteLine("Гипотенуза = " + Math.Sqrt(Math.Pow(a, stepen) + Math.Pow(b, stepen))); // вывод
-
                 //2.4 Эпилог
+
                 Console.WriteLine("\n"); 
                 Console.WriteLine("Нажмите Enter, чтобы завершить программу");
                 Console.ReadLine();
             } while (Console.ReadKey(true).Key != ConsoleKey.Enter);
-
-
-
-
-
         }
     }
 }
